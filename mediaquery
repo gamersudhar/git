@@ -1,0 +1,19 @@
+@media only screen and (min-width: 480px)    { .480; }
+@media only screen and (min-width: 600px)   { .600; }
+@media only screen and (min-width: 760px)   { .760; }
+@media only screen and (min-width: 980px)   { .980; }
+@media only screen and (min-width: 1380px)    { .1380; }
+.ie7, .ie8                                 { .480; .600; .760; .980; }
+
+
+
+@media only screen and (max-device-width:320px)
+images
+{
+width:100%;
+}
+@media only screen and (min-width:321px) and (max-device-width:480px)
+@media only screen and (min-width:768px) and (max-device-width:1024px)
+@media only screen and (min-device-width:1224px)
+
+

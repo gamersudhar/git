@@ -1,0 +1,6 @@
+<script>$('.yourdiv').hover(function () {
+  $(this).addClass('magictime puffIn');
+})
+setTimeout(function(){
+    $('.yourdiv').addClass('magictime puffIn');
+}, 5000);</script>

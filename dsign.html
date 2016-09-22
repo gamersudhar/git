@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head></head>
+<style>
+
+input[type=text]:focus {
+    border:3px solid orange;
+}
+input[type=password]:focus {
+    border:3px solid orange;
+}
+input
+{
+	margin-bottom: 10px;
+}
+
+h2
+{
+	text-align: center;
+}
+#sign
+{
+width:250px;
+height:350px;
+    border: 2px solid black;
+    border-radius: 12px;
+    
+   margin-top: 80px;
+   background-color: grey;
+   color:black;
+}
+</style>
+<body>
+<center>
+<div id="sign">
+
+<h2>Login to Digicash</h2>
+
+
+<table border="0" align="center">
+<form name="form" action="#" id="form" method="post">
+<tr>
+<tr>
+<td>Username</td>
+<td><input name="name" placeholder="username" type="text" value=""></td>
+</tr>
+
+
+<tr>
+<td>Phonenumber</td>
+<td><input name="phone" placeholder="phonenumber" type="text" value=""></td>
+</tr>
+
+
+<tr>
+<td>Password</td>
+<td><input name="password" placeholder="Password" type="Password" value=""></td>
+</tr>
+
+<tr>
+<td>Re-type Password</td>
+<td><input name="rpassword" placeholder="Re-type Password" type="Password" value=""></td>
+</tr>
+
+                    
+                        <tr>
+                        <td>
+                            <input type="checkbox" name="remember" id="remember"></td>
+
+                           <td>Remember me on this computer</td>
+                        </tr>
+                        
+                    
+<tr>
+<td colspan="2" style="text-align:center"><input id="send" name="Continue" type="submit" value="Continue"></td>
+</tr>
+<tr>
+
+</form>
+
+
+</table>
+<span>
+Already have an account? <a href="signin.html">Sign in</a></span>
+</div>
+</center>
+</body>

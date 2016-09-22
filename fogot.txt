@@ -1,0 +1,4 @@
+<a class="login__inline login__forgot login-form__link" aria-label="Forgot your password?" data-bind-href="login_form.state.recoverPath" data-bind-class="{
+                    'js-has-icon': ShopifyMarketing.context.login_form.fields.password.state.error
+                                || ShopifyMarketing.context.login_form.fields.password.state.success,
+                    }" href="/forgot-password">Forgot?</a>

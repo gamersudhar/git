@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<title>student</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+  <link rel="stylesheet" type="text/css" href="engine0/style.css" />
+  <script type="text/javascript" src="engine0/jquery.js"></script>
+  <!-- End WOWSlider.com HEAD section -->
+
+<script type="text/javascript" src="engine0/wowslider.js"></script>
+<script type="text/javascript" src="engine0/script.js"></script>
+
+
+
+</head>
+<body>
+<div id="wrapper"><!--start wrapper-->
+<div id="header"><!--start header-->
+<div class="company"><!--start company-->
+ABC PVT LIMITED 8144467772 7358597063
+</div><!--end company-->
+<div class="navbar"><!--start nav-->
+<ul>
+<li><a class="active" href="home.html"/>Home</li>
+<li><a href="about.html"/>About us</li>
+<li><a href="services.html"/>Services</li>
+<li><a href="products.html"/>Products</li>
+<li><a href="contact.html"/>Contact us</li>
+</ul>
+</div><!--end nav-->
+</div><!--end header-->
+<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container0">
+<div class="ws_images"><ul>
+    <li><img src="data0/images/as.jpg" alt="as"  id="wows0_0"/></li>
+    <li><img src="data0/images/c.jpg" alt="c"  id="wows0_1"/></li>
+    <li><img src="data0/images/h.jpg" alt="h"  id="wows0_2"/></li>
+    <li><img src="data0/images/s.jpg" alt="s"  id="wows0_4"/></li>
+  </ul></div>
+    
+
+</div>  
+<div class="container-fluid text-center bg-grey"><!--boxes-->
+  
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="../sudhar/photo/i.jpg" alt="Innovation">
+        <p><strong>Innovation</strong></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="../sudhar/photo/cr.png" alt="Creative">
+        <p><strong>Creativity</strong></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="../sudhar/photo/po.jpg" alt="Positive">
+        <p><strong>Positivity</strong></p>
+              </div>
+    </div>
+</div><!--end boxes-->
+
+
+<div id="con"><!--start con-->
+<div class="contact"><!-- start contact-->
+<h1>Address</h1>
+<p><span class="glyphicon glyphicon-map-marker"></span>
+Abc private limited
+no54,2ndstreet,
+madipakkam,
+chennai-67.
+</p>
+ <p><span class="glyphicon glyphicon-envelope"></span> ABCPVT@gmail.com</p>
+</div><!--end contact-->
+<div class="enquiry"><!--start enquiry-->
+<h1>Enquiry Form</h1>
+<table border="0" align="center">
+<form name="form" action="email.php" id="form" method="post">
+<tr>
+<tr>
+<td>Name</td>
+<td><input name="name" placeholder="Name" type="text" value=""></td>
+</tr>
+
+<<tr>
+<td>Email</td>
+<td><input name="email" placeholder="Email" type="text" value=""></td>
+</tr>
+
+<tr>
+<td>Phone</td>
+<td><input name="phone" placeholder="phonenumber" type="text" value=""></td>
+</tr>
+
+<tr>
+<td>Message</td>
+<td><textarea name="msg" placeholder="Type your text here..."></textarea></td>
+</tr>
+<td colspan="2" style="text-align:center"><input id="send" name="submit" type="submit" value="Submit"></td>
+</tr>
+</form>
+</table>
+
+</div><!--end enquiry-->
+</div><!--end con-->
+</div><!--end wrapper-->
+<div id="footer"><!--start footer-->
+copyrights &copy; to WWW.abcpvt.com
+<img src="../task/photo/fb.png" alt="fb"/>
+<img src="../task/photo/ln.png" alt="tweet"/>
+<img src="../task/photo/tw.png" alt="linkedin"/>
+</div><!--end footer-->
+
+
+
+
+
+
+
+
+
+</body>
+</html>
